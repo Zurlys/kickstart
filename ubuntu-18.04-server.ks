@@ -79,13 +79,16 @@ skipx
 # @ is for groups - http://landoflinux.com/linux_kickstart_keywords.html
 %packages
 @ ubuntu-server
-openssh-server
 acpid
-libpam-systemd
-dbus
 byobu
-vim
+curl
+dbus
 bash-completion
+libpam-systemd
+openssh-server
+software-properties-common
+vim
+xfsprogs
 
 # update grub after installation so that we can see the console later
 # The new filesystem is under /target. e.g. /root is now /target/root
