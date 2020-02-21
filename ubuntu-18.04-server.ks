@@ -39,6 +39,7 @@ install
 
 # Use http installation media
 #url --url http://lt.archive.ubuntu.com/ubuntu
+#url --url http://mirror.vpsnet.com/ubuntu
 url --url http://ubuntu.mirror.vu.lt/ubuntu
 
 # System bootloader configuration
